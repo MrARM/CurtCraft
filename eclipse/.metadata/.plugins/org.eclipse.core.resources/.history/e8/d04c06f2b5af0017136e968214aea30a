@@ -3,7 +3,7 @@
   "modid": "curtcraft",
   "name": "CurtCraft",
   "description": "WITH A BUILT IN CUSS FILTER!!",
-  "version": "one point o",
+  "version": "${1.0}",
   "mcversion": "${mcversion}",
   "url": "https://discord.gg/VkRxc2d",
   "updateUrl": "",
