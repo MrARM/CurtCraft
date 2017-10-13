@@ -1,4 +1,4 @@
-!SESSION 2017-10-12 16:02:50.711 -----------------------------------------------
+!SESSION 2017-10-13 12:44:42.793 -----------------------------------------------
 eclipse.buildId=4.7.1.M20171009-0410
 java.version=1.8.0_111
 java.vendor=Oracle Corporation
@@ -6,5 +6,5 @@ BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/mram/.eclipse_keyring
 Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/mram/.eclipse_keyring
 
-!ENTRY org.eclipse.oomph.setup.ui 1 0 2017-10-12 16:05:34.687
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2017-10-13 12:45:27.556
 !MESSAGE Setup tasks were performed during startup updating 4 preferences. See '/Applications/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.oomph.setup/setup.log' for details

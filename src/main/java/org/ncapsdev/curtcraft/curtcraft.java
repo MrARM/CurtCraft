@@ -1,25 +1,29 @@
 package org.ncapsdev.curtcraft;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.Mod.EventHandler;
-import net.minecraftforge.fml.common.event.FMLInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid="curtcraft", version="1.0", name="CurtCraft", acceptedMinecraftVersions="[1.8]")
-public class curtcraft {
-	public static String MODID = "modid";
-	public static String VERSION = "version";
+@Mod(modid="curtcraft", version="1.0", name="CurtCraft", acceptedMinecraftVersions="[1.7.10]")
+public class curtcraft
+{
+public static String MODID = "modid";
+public static String VERSION = "version";
 
-	@EventHandler
-	public void preInit(FMLPreInitializationEvent e) {
-	}
+@EventHandler
+public void preInit(FMLPreInitializationEvent e)
+{
+}
 
-	@EventHandler
-	public void init(FMLInitializationEvent e) {
-	}
+@EventHandler
+public void init(FMLInitializationEvent e)
+{
+}
 
-	@EventHandler
-	public void postInit(FMLPostInitializationEvent e) {
-	}
+@EventHandler
+public void postInit(FMLPostInitializationEvent e)
+{
+}
 }
