@@ -9,12 +9,13 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid="curtcraft", version="1.0", name="CurtCraft", acceptedMinecraftVersions="[1.7.10]")
 public class curtcraft
 {
-public static String MODID = "modid";
-public static String VERSION = "version";
+public static String MODID = "curtcraft";
+public static String VERSION = "1.0";
 
 @EventHandler
 public void preInit(FMLPreInitializationEvent e)
 {
+	CurtDisc.mainRegistry();
 }
 
 @EventHandler
