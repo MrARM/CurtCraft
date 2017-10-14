@@ -5,8 +5,8 @@ This is a mod based off the northland CAPs technology solutions class
 
 ## Features
 
-*Curt's Ringtone on CD
+* Curt's Ringtone on CD
 
 ## Plans
 
-*Add Curt
+* Add Curt
