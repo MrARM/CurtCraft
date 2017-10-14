@@ -2,13 +2,16 @@ package org.ncapsdev.curtcraft;
 
 import org.ncapsdev.curtcraft.entities.EntityCurt;
 import org.ncapsdev.curtcraft.items.*;
+import org.ncapsdev.curtcraft.render.RenderCurt;
 
+import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.EntityRegistry;
+import net.minecraft.client.model.ModelBiped;
 import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.world.biome.BiomeGenBase;
 
@@ -26,6 +29,8 @@ public void preInit(FMLPreInitializationEvent e)
 	//The Curt Himself
 	 EntityRegistry.registerModEntity(EntityCurt.class, "Curt_Kelly", 420, this, 50, 3, true);
 	 //EntityRegistry.addSpawn("Curt_Kelly", 32, 1, 4, EnumCreatureType.monster, BiomeGenBase.getBiomeGenArray());
+	 //THE FINAL FORM KNOWN AS CURT
+	 RenderingRegistry.registerEntityRenderingHandler(EntityCurt.class, new RenderCurt(new ModelBiped(), 0.5F));
 	 //Curts asexual system
 	 CurtEgg.mainRegistry();
 }
