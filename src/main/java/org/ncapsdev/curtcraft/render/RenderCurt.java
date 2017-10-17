@@ -9,7 +9,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
 
 public class RenderCurt extends RenderLiving {
-	 private static final ResourceLocation Texture = new ResourceLocation(curtcraft.MODID + ":textures/entities/curt.png");
+	 private static final ResourceLocation Texture = new ResourceLocation(curtcraft.MODID + ":textures/entities/curt1024.png");
 	   
 	    public RenderCurt(ModelBiped modelBiped, float par2)
 	    {
